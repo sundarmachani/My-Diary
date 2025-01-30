@@ -38,7 +38,7 @@ The frontend for the MY DIARY application is built using ReactJS. It provides an
 1. Clone the repository:
    ```bash
    git clone https://github.com/sundarmachani/My-Diary.git
-   cd my-diary-ui
+   cd my-diary-frontend
    ```
 2. Install dependencies:
    ```bash

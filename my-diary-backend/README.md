@@ -120,8 +120,8 @@ Authorization: Bearer <your-token>
 - **Request Body**:
   ```json
   {
-      "username": "<your_username>",
-      "password": "<your_password>"
+      "username": "admin",
+      "password": "password"
   }
   ```
 - **Response**:

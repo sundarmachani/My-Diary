@@ -1,14 +1,14 @@
-# MY DIARY Application README
+# StoryVault Application README
 
 ## **Overview**
-MY DIARY is a full-stack application designed to manage personal diary entries. It consists of a **backend service** built with Java 21, Spring Boot, and PostgreSQL, and a **frontend application** developed using ReactJS. The application provides secure authentication using JWT (JSON Web Token), API documentation via Swagger, and a user-friendly interface for managing diary entries.
+StoryVault is a full-stack application designed to manage personal Story entries. It consists of a **backend service** built with Java 21, Spring Boot, and PostgreSQL, and a **frontend application** developed using ReactJS. The application provides secure authentication using JWT (JSON Web Token), API documentation via Swagger, and a user-friendly interface for managing Story entries.
 
 ---
 
 ## **Features**
 - **Backend Features**:
   - Secure authentication using JWT.
-  - RESTful APIs for CRUD operations on diary entries.
+  - RESTful APIs for CRUD operations on Story entries.
   - Swagger integration for API documentation and testing.
   - PostgreSQL database for persistent data storage.
   - Built with Java 21 and Spring Boot for high performance and scalability.
@@ -16,9 +16,9 @@ MY DIARY is a full-stack application designed to manage personal diary entries. 
 - **Frontend Features**:
   - Login screen with secure token-based authentication.
   - Welcome page with personalized greetings.
-  - Entries list to view all diary entries.
-  - Add entry form to create new diary entries.
-  - Update entry form to edit existing diary entries.
+  - Entries list to view all Story entries.
+  - Add entry form to create new Story entries.
+  - Update entry form to edit existing Story entries.
   - Built with ReactJS, Axios for API calls, and React Router for navigation.
 
 ---
@@ -43,12 +43,12 @@ MY DIARY is a full-stack application designed to manage personal diary entries. 
 
 ## **Project Structure**
 ```
-my-diary/
-├── my-diary-backend/               # Backend service
+StoryVault/
+├── StoryVault-backend/               # Backend service
 │   ├── src/main/java/     # Java source files
 │   ├── src/main/resources # Configuration files (application.properties)
 │   └── pom.xml            # Maven dependencies
-├── my-diary-frontend/              # Frontend application
+├── StoryVault-frontend/              # Frontend application
 │   ├── public/            # Static files
 │   ├── src/               # ReactJS source files
 │   └── package.json       # npm dependencies
@@ -69,9 +69,9 @@ my-diary/
 ### Backend Setup
 
 #### Steps to Run the Backend:
-1. Navigate to the `my-diary-backend` directory:
+1. Navigate to the `StoryVault-backend` directory:
    ```bash
-   cd my-diary-backend
+   cd StoryVault-backend
    ```
 2. Configure the PostgreSQL database in `src/main/resources/application.properties`:
    ```properties
@@ -100,9 +100,9 @@ my-diary/
 ### Frontend Setup
 
 #### Steps to Run the Frontend:
-1. Navigate to the `my-diary-frontend` directory:
+1. Navigate to the `StoryVault-frontend` directory:
    ```bash
-   cd my-diary-frontend
+   cd StoryVault-frontend
    ```
 2. Install dependencies:
    ```bash
